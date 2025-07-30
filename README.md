@@ -24,3 +24,25 @@ An **AI-powered chatbot** designed to answer education-related queries using **G
 ---
 
 ## **Project Structure**
+Chatbox/
+│
+├── edu-chatbot-backend/ # FastAPI backend
+│ ├── main.py
+│ ├── .env
+│ └── venv/ (ignored)
+│
+└── edu-chatbot-frontend/ # React frontend
+├── src/
+├── package.json
+└── vite.config.js
+
+
+---
+
+## **Setup Instructions**
+
+### **1. Clone Repository**
+```bash
+git clone https://github.com/Pajju2212/education-chatbot.git
+cd education-chatbot
+
